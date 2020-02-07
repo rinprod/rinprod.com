@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Writing Production R"
-date:   2020-02-01 01:10:33 +0000
+date:   2019-03-01 01:10:33 +0000
 categories: code resources
 permalink: "/writing-production-r/"
 ---
