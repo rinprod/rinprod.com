@@ -21,6 +21,7 @@ cover-image: cover.png
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
+---
 
 
 # About
@@ -33,6 +34,8 @@ If you find a problem with this site, or think that something is missing, let us
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
+---
+
 
 # Guides
 
@@ -41,6 +44,9 @@ If you're an **R user** looking for more information on writing R for production
 ## Understanding R and it's ecosystem
 
 The best place to start your journey towards understanding the world of R is the [Field Guide to the R Ecosystem](https://fg2re.sellorm.com). It's a concise, non-technical introduction to the language and supporting software. The guide presumes no previous knowledge of R or any other programming language and is aimed primarily at managers and IT professionals approaching the language for the first time.
+
+---
+
 
 # Getting started
 
@@ -52,11 +58,21 @@ The best place to start your journey towards understanding the world of R is the
 
 Cover the familiar complaints - scalability etc
 
-# How R users work
+---
 
 
+# How R users work/How data scientists work
 
-# How data scientists work
+## SDLC and R
+
+## Hadley's data science lifecycle
+
+## mixing and matching
+
+the type of work varies from project for project
+
+---
+
 
 # R infra requirements
 
@@ -69,6 +85,7 @@ Cover the familiar complaints - scalability etc
 
 ## Other content types eg Rmd and scripts
 
+---
 
 
 # R infratructure patterns
@@ -79,12 +96,16 @@ Cover the familiar complaints - scalability etc
 
 ## Enterprise
 
-
+---
 
 
 # Automation
 
+## Testing
+
 ## CI/CD with R
+
+---
 
 
 # Linux and R
@@ -96,6 +117,9 @@ Cover the familiar complaints - scalability etc
 Cloud/on-prem
 
 ## docker
+
+---
+
 
 # Best practices for R developers
 
@@ -111,6 +135,9 @@ eg "how do we handle secrets?"
 
 ## Database connections
 
+---
+
+
 # Running R in production
 
 ## Scripts
@@ -120,6 +147,8 @@ eg "how do we handle secrets?"
 ## Shiny
 
 ## APIs
+
+---
 
 
 # Installing R and associated tools
@@ -137,6 +166,9 @@ Shiny Server
 RStudio Connect
 
 RSPM vs PPM etc.
+
+---
+
 
 # Linux basics
 
