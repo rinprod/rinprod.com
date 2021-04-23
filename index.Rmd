@@ -1,0 +1,193 @@
+--- 
+title: "RinProd.com"
+author: "Mark Sellors"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::bs4_book
+documentclass: book
+biblio-style: apalike
+link-citations: yes
+github-repo: rinprod/rinprod.com
+description: "This guide aims to introduce the reader to the main elements of the R ecosystem."
+url: 'http\://rinprod.com'
+cover-image: cover.png
+---
+
+# {-}
+
+![](static/rinprod_title.jpg){width=100%}
+
+## License
+
+This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+
+
+
+# About
+
+RinProd.com is not your standard R website or blog. This website isn't really even aimed at R users (there are lots of better sites for that audience) but rather the IT and Ops professionals tasked with building and maintaining R based infrastructure.
+
+The goal of the project is to provide that audience with the information they need to expand the analytics capability that they're able to offer for their businesses.
+
+If you find a problem with this site, or think that something is missing, let us know on the [GitHub issue tracker](https://github.com/rinprod/rinprod.com/issues) for the project.
+
+This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+
+
+# Guides
+
+If you're an **R user** looking for more information on writing R for production use cases, this site isn't really about that, so check the [resources for writing production R](/writing-production-r/) page instead.
+
+## Understanding R and it's ecosystem
+
+The best place to start your journey towards understanding the world of R is the [Field Guide to the R Ecosystem](https://fg2re.sellorm.com). It's a concise, non-technical introduction to the language and supporting software. The guide presumes no previous knowledge of R or any other programming language and is aimed primarily at managers and IT professionals approaching the language for the first time.
+
+# Getting started
+
+## What is R?
+
+## What is "production"?
+
+## Can you use R in production
+
+Cover the familiar complaints - scalability etc
+
+# How R users work
+
+
+
+# How data scientists work
+
+# R infra requirements
+
+## Packages
+
+## Code Development
+
+
+## Shiny apps
+
+## Other content types eg Rmd and scripts
+
+
+
+# R infratructure patterns
+
+## basics
+
+## advanced
+
+## Enterprise
+
+
+
+
+# Automation
+
+## CI/CD with R
+
+
+# Linux and R
+
+# Infrastructure revisited
+
+## Server
+
+Cloud/on-prem
+
+## docker
+
+# Best practices for R developers
+
+Not code stuff, but more about the management of the overall environment.
+
+eg "how do we handle secrets?"
+
+* Don't hard code them in your scripts
+* Use an alternate strategy, eg config, env vars etc.
+
+
+## Secrets
+
+## Database connections
+
+# Running R in production
+
+## Scripts
+
+## Rmds
+
+## Shiny
+
+## APIs
+
+
+# Installing R and associated tools
+
+## Python too?
+
+## standard installs
+
+## Additions tools
+
+RStudio Server/Pro
+
+Shiny Server
+
+RStudio Connect
+
+RSPM vs PPM etc.
+
+# Linux basics
+
+Some or all of the following...
+
+Linux system administration for data science?
+
+What makes this for “data science”?
+
+Who is this book for?
+
+Why Linux?
+
+Which Linux? How to choose.
+
+Accessing Linux - client side set up
+
+Standing up a server - local/cloud, real/virtual
+
+Logging in and looking around
+
+Files, directories, users/groups, ownership, editing (crash course in vim), permissions, shell scripts, curl 
+
+Users, who am I, got root
+
+Installing packages - repositories, differences between linuxes, updating packages
+
+Root and sudo
+
+Install R and Python - when to use OS supplied software and when not to.
+
+Env vars, paths, ssh keys, from
+
+Authentication - local, ad joined
+
+Multi user management
+
+Disk space
+
+Remote file systems
+
+Networking, dns 
+
+Security - firewalls etc.
+
+Other uses - docker/Kubernetes, HPC
+
+Advance architectures - HA and load balancing, proxies (forward and reverse), 
+
+## SSH
+
+—-
+
+Watch out for the “Data Science at the Command Line” book by Jerome Jannsens

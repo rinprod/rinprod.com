@@ -6,3 +6,4 @@ vendor
 Gemfile.lock
 .Rproj.user
 .Rhistory
+_book
