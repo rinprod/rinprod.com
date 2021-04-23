@@ -10,7 +10,7 @@ link-citations: yes
 github-repo: rinprod/rinprod.com
 description: "This guide aims to introduce the reader to the main elements of the R ecosystem."
 url: 'http\://rinprod.com'
-cover-image: cover.png
+cover-image: static/rinprod_title.jpg
 ---
 
 # {-}
@@ -63,6 +63,10 @@ Cover the familiar complaints - scalability etc
 
 # How R users work/How data scientists work
 
+performance vs methodological rigour etc.
+
+Reproducible research
+
 ## SDLC and R
 
 ## Hadley's data science lifecycle
@@ -88,7 +92,7 @@ the type of work varies from project for project
 ---
 
 
-# R infratructure patterns
+# R infrastructure patterns
 
 ## basics
 
@@ -157,7 +161,9 @@ eg "how do we handle secrets?"
 
 ## standard installs
 
-## Additions tools
+System dependencies
+
+## Additional tools
 
 RStudio Server/Pro
 
