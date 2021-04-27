@@ -173,6 +173,29 @@ RStudio Connect
 
 RSPM vs PPM etc.
 
+# Version control
+
+Use it!
+
+We talk about git because it's essentially a de-facto standard at this point.
+
+A git repo should be a discrete project. The smaller the scope of the repo the better.
+
+# Environments
+
+We should probably say somethng about environments.
+
+renv, CRAN repo usage management, CRAN repo management etc.
+
+
+# The business of production
+
+Processes for production flows.
+
+Pay careful consideration to customers with heavily regulated workflows.
+
+five P's
+
 ---
 
 
