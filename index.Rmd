@@ -17,6 +17,13 @@ cover-image: static/rinprod_title.jpg
 
 ![](static/rinprod_title.jpg){width=100%}
 
+RinProd.com is not your standard R website or blog. This website isn't really even aimed at R users (there are lots of better sites for that audience) but rather the IT and Ops professionals tasked with building and maintaining R based infrastructure.
+
+The goal of the project is to provide that audience with the information they need to expand the analytics capability that they're able to offer for their businesses.
+
+If you find a problem with this site, or think that something is missing, let us know on the [GitHub issue tracker](https://github.com/rinprod/rinprod.com/issues) for the project.
+
+
 ## License
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
@@ -26,18 +33,33 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 # About
 
-RinProd.com is not your standard R website or blog. This website isn't really even aimed at R users (there are lots of better sites for that audience) but rather the IT and Ops professionals tasked with building and maintaining R based infrastructure.
 
-The goal of the project is to provide that audience with the information they need to expand the analytics capability that they're able to offer for their businesses.
+more and more people and businesses around the world are turning to R as their langauge of choice for data science and other data related programming tasks.
 
-If you find a problem with this site, or think that something is missing, let us know on the [GitHub issue tracker](https://github.com/rinprod/rinprod.com/issues) for the project.
+R's maturity, flexibility and rich syntax is drawing more users every day.
 
-This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+most of those users have little to no experience of running r in production settings however. and when businesses turn to their it teams for support, theyre often left scratching their heads at the idea of supporting a new language that theyve probably never encountered before.
+
+where to even begin?
+
+fortunately, this book is here to help. 
+
+## whos this book for?
+
+this book is for anyone looking to understand what it means to run R in production. whether youre an it pro whos never heard of R or a seasoned R user looking to branch out into more of operational role, this book can help.
+
+## about the author
+
+mark has been running R in production settings since 2013. firstly as a consultant with a global roster of clients, before joining RStudio.
+
+mark has many years expereince of running enterprise systems.
+
+
 
 ---
 
 
-# Guides
+# what this book is not
 
 If you're an **R user** looking for more information on writing R for production use cases, this site isn't really about that, so check the [resources for writing production R](/writing-production-r/) page instead.
 
@@ -54,14 +76,30 @@ The best place to start your journey towards understanding the world of R is the
 
 ## What is "production"?
 
+some people will try to tell you that a production system must be comprised of hundreds of components and serving the needs of thoushands of users or more.
+
+of course this is gatekeeping nonsense. a production system is simply a system that is relied upon.
+
+if your company relies on a system running under you colleague Silvie's desk, then that system is a production system. whether its managed like a production system is an entirely different question.
+
+to manage a shstem as though its a productions system means to treat its role serioisly. this mainly means planning for contingencies; what happens when the server its on breaks? what happens if the disk fails and you lose your code? who should recieve the support call in the middle of the night if its not working? is the system under sylvies desk powerful enough to meet the needs of the application in the short to medium term. and so on.
+
 ## Can you use R in production
 
 Cover the familiar complaints - scalability etc
+
+of course! there will always be people who tell you that its not suitable for some reason, but that usually just means that they themselves dont know how to do it.
+
+every programming language has its adherents and its detractors and R is no different. since r is primarily used in data science and related fields, it is not widely understood outside of those circles. 
 
 ---
 
 
 # How R users work/How data scientists work
+
+when people outside of the data science world llok at the work of a data scientist, it's essy to mistake it for software development and indeed there sre many similarities. however, the main output of software development is software, whereas for data science, the main output is insight and knowledge.
+
+programming is simply a means to an end as the computer can provide, in the right hands, a powerful tool to help understand the world around us.
 
 performance vs methodological rigour etc.
 
@@ -69,11 +107,25 @@ Reproducible research
 
 ## SDLC and R
 
+that traditional software development lifecycle is some version of this;
+
+develop -> test -> production 
+
+the testing stage in particular can comprise many sub-stages, eg user acceptance testing, unit testing, integration testing etc.
+
+it can be tempting to look at the work of a data scientist and assume that they are sloppy and poorly disciplined, since there is rsrely a formal testing phase conducted by a party apart from the developer.
+
+remember though that data science is not strictly software development snd a data scientist will test a hypothesis as much as their software.
+
+in many cases rigourosly testing the software part of a data science project or building out complex test tooling and infrastructure is actually a waste of resources.
+
 ## Hadley's data science lifecycle
 
 ## mixing and matching
 
 the type of work varies from project for project
+
+sometimes the sdlc is a good fit and sometimes hadleys thing is a good fit. sometimes its a hybrid approach
 
 ---
 
