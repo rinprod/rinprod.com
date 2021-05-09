@@ -44,9 +44,25 @@ where to even begin?
 
 fortunately, this book is here to help. 
 
-## whos this book for?
+## Who's this book for?
 
 this book is for anyone looking to understand what it means to run R in production. whether youre an it pro whos never heard of R or a seasoned R user looking to branch out into more of operational role, this book can help.
+
+### The IT Pro:
+
+Maybe you're an experienced IT professional on the verge of supporting data science with R users in your organisation. You've maybe only heard of R for the first time last week and feel ill-at-ease with the idea of supporting your business's users.
+
+### The Technical Data Scientist
+
+Perhaps you're a data scientist with a passion for the technical and want to better help yourself and your business move R into a more central role in your organisation. You're not so familiar with computing infrastructure, but you have an obvious thirst for knowledge.
+
+### The Business Leader
+
+Or maybe you're actually leading the business and want to make sure you've considered all the angles and that you're doing things the right way.
+
+### Whoever you are...
+
+Whatever your motivation (and a great many of the lessons here are transferable directly across other langauges too!) this book will provide you with a fantastic foundation for running R in production settings. No matter the size of your organisation this book will provide you with know-how and learning direct from those who've "been there, and done that"
 
 ## about the author
 
@@ -142,6 +158,14 @@ sometimes the sdlc is a good fit and sometimes hadleys thing is a good fit. some
 ## Other content types eg Rmd and scripts
 
 ---
+
+# Tooling
+
+## Open source
+
+## Commercial
+
+## Desktop vs Server
 
 
 # R infrastructure patterns
@@ -300,6 +324,16 @@ Other uses - docker/Kubernetes, HPC
 Advance architectures - HA and load balancing, proxies (forward and reverse), 
 
 ## SSH
+
+# Enterprise Stuff
+
+## Validation
+
+## Release Management
+
+## Governance
+
+## Build vs Buy
 
 —-
 
