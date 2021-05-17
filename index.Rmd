@@ -176,6 +176,11 @@ sometimes the sdlc is a good fit and sometimes hadleys thing is a good fit. some
 
 ## Enterprise
 
+Single server
+Clusters
+HPC
+Spark?
+
 ---
 
 
@@ -197,6 +202,13 @@ sometimes the sdlc is a good fit and sometimes hadleys thing is a good fit. some
 Cloud/on-prem
 
 ## docker
+
+# Ongoing maintenance and support
+
+## Who supports this stuff?
+
+* handover?
+* Self support
 
 ---
 
@@ -270,7 +282,23 @@ Processes for production flows.
 
 Pay careful consideration to customers with heavily regulated workflows.
 
-five P's
+five P's - Process, procedure, policing etc.
+
+## A lab environment
+
+essential for experimentation and for data scientists to be able to define the parameters of their own work.
+
+You wouldn't stock a chemistry lab with ancient kit, why do the same to your data scientists?
+
+# Frameworks
+
+Are there any specific framworks we can share?
+
+# Checklists
+
+Checklists can help us get where we're going faster by providing a simple way to see what's been done and what's left to do.
+
+Adapt these to your own organisation.
 
 ---
 
