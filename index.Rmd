@@ -59,7 +59,9 @@ Or maybe you're actually leading the business and want to make sure you've consi
 
 ### Whoever you are...
 
-Whatever your motivation (and a great many of the lessons here are transferable directly across other languages too!) this book will provide you with a fantastic foundation for running R in production settings. No matter the size of your organisation this book will provide you with know-how and learning direct from those who've "been there, and done that"
+Whatever your motivation (and a great many of the lessons here are transferable directly across other languages too!) this book will provide you with a fantastic foundation for running R in production settings. No matter the size of your organisation this book will provide you with know-how and learning direct from those who've "been there, and done that".
+
+The idea of the book is to help create a shared mental model of what it means to run R in production within your organisation.
 
 ## About the author
 
