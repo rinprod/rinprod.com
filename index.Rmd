@@ -66,9 +66,9 @@ Whatever your motivation (and a great many of the lessons here are transferable 
 
 ## about the author
 
-mark has been running R in production settings since 2013. firstly as a consultant with a global roster of clients, before joining RStudio.
+Mark has been running R in production settings since 2013. firstly as a consultant with a global roster of clients, before joining RStudio.
 
-mark has many years expereince of running enterprise systems.
+Mark has many years experience of running enterprise systems.
 
 
 
@@ -77,7 +77,7 @@ mark has many years expereince of running enterprise systems.
 
 # what this book is not
 
-If you're an **R user** looking for more information on writing R for production use cases, this site isn't really about that, so check the [resources for writing production R](/writing-production-r/) page instead.
+If you're an **R user** looking for more information on _writing_ R for production use cases, this book isn't really about that, so check the [resources for writing production R](/writing-production-r/) page instead.
 
 ## Understanding R and it's ecosystem
 
@@ -113,7 +113,16 @@ every programming language has its adherents and its detractors and R is no diff
 
 # How R users work/How data scientists work
 
-when people outside of the data science world llok at the work of a data scientist, it's essy to mistake it for software development and indeed there sre many similarities. however, the main output of software development is software, whereas for data science, the main output is insight and knowledge.
+The different types of analytics: descriptive, diagnostic, predictive and prescriptive.
+
+* Descriptive - what has happened?
+* Diagnostic - Why did it happen?
+* Predictive - What will (might?) happen?
+* Prescriptive - What should we do?
+
+EXPAND ON THESE AND PROVIDE EXAMPLES!!
+
+When people outside of the data science world look at the work of a data scientist, it's easy to mistake it for software development and indeed there are many similarities. however, the main output of software development is software, whereas for data science, the main output is insight and knowledge.
 
 programming is simply a means to an end as the computer can provide, in the right hands, a powerful tool to help understand the world around us.
 
