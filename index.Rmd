@@ -130,13 +130,15 @@ performance vs methodological rigour etc.
 
 Reproducible research
 
-## SDLC and R
+## Exploratory Data Analysis (EDA)
+
+## Software Development Life Cycle (SDLC) and R
 
 that traditional software development lifecycle is some version of this;
 
 develop -> test -> production 
 
-the testing stage in particular can comprise many sub-stages, eg user acceptance testing, unit testing, integration testing etc.
+The testing stage in particular can comprise many sub-stages, eg user acceptance testing, unit testing, integration testing etc.
 
 it can be tempting to look at the work of a data scientist and assume that they are sloppy and poorly disciplined, since there is rsrely a formal testing phase conducted by a party apart from the developer.
 
