@@ -73,6 +73,8 @@ Mark has many years experience of running enterprise systems.
 
 # What this book is not
 
+This book is not about code. It's not about writing highly performant or secure code. It's about what it takes from a technology and governance perspective to deliver R into an organisation. It's about the considerations that must be made and how to implement them. Many of the lessons here are transferable to other languages and technologies, but we'll discuss everything specifically from the R perspective to ensure we stay focused on what we're trying to deliver to our end users.
+
 If you're an **R user** looking for more information on *writing* R for production use cases, this book isn't really about that, so check the [resources for writing production R](/writing-production-r/) page instead.
 
 ## Understanding R and it's ecosystem
@@ -85,25 +87,27 @@ The best place to start your journey towards understanding the world of R is the
 
 ## What is R?
 
-R is a programming language specifically created for statistical computing. This is in contrast to most programming languages that are designed for general purpose computing.
+R is a programming language specifically created for statistical computing. This is in contrast to most programming languages that are designed for *general purpose* computing.
+
+Because of R's strength in statistics it has become one of the primary languages used today for modern data science.
 
 ## What is "production"?
 
 Some people will try to tell you that a production system must be comprised of hundreds of components and serving the needs of thousands of users or more.
 
-of course this is gate-keeping nonsense. a production system is simply a system that is relied upon.
+Of course, this is gate-keeping nonsense. A production system is simply a system that is relied upon.
 
-if your company relies on a system running under you colleague Silvie's desk, then that system is a production system. whether its managed like a production system is an entirely different question.
+if your company relies on a system running under you colleague Silvie's desk, then that system is a production system. Whether its managed like a production system is an entirely different question.
 
-to manage a system as though its a productions system means to treat its role seriously. this mainly means planning for contingencies; what happens when the server its on breaks? what happens if the disk fails and you lose your code? who should receive the support call in the middle of the night if its not working? is the system under Sylvie's desk powerful enough to meet the needs of the application in the short to medium term. and so on.
+To manage a system as though its a productions system means to treat its role seriously and understanding the risks of that system being unavailable. This mainly means planning for contingencies; what happens when the server its on breaks? what happens if the disk fails and you lose your code? who should receive the support call in the middle of the night if its not working? is the system under Sylvie's desk powerful enough to meet the needs of the application in the short to medium term. and so on.
 
-## Can you use R in production
+## Can you use R in production?
 
 Cover the familiar complaints - scalability etc
 
-of course! there will always be people who tell you that its not suitable for some reason, but that usually just means that they themselves don't know how to do it.
+Of course! There will always be people who tell you that its not suitable for some reason, but that usually just means that they themselves don't know how to do it.
 
-every programming language has its adherents and its detractors and R is no different. since r is primarily used in data science and related fields, it is not widely understood outside of those circles.
+Every programming language has its adherents and its detractors and R is no different. Since R is primarily used in data science and related fields, it is not widely understood outside of those circles.
 
 ------------------------------------------------------------------------
 
@@ -118,9 +122,9 @@ The different types of analytics: descriptive, diagnostic, predictive and prescr
 
 EXPAND ON THESE AND PROVIDE EXAMPLES!!
 
-When people outside of the data science world look at the work of a data scientist, it's easy to mistake it for software development and indeed there are many similarities. however, the main output of software development is software, whereas for data science, the main output is insight and knowledge.
+When people outside of the data science world look at the work of a data scientist, it's easy to mistake it for software development and indeed there are many similarities and places where the two disciplines cross over. However, the main output of software development is software, whereas for data science, the main outputs are insight and knowledge.
 
-programming is simply a means to an end as the computer can provide, in the right hands, a powerful tool to help understand the world around us.
+Programming is simply a means to an end as the computer can provide, in the right hands, a powerful tool to help understand the world around us through data.
 
 performance vs methodological rigour etc.
 
