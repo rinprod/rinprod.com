@@ -1,0 +1,37 @@
+site_name: R in Production
+site_url: https://rinprod.com
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+  palette:
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Section:
+    - learn/index.md 
+    - Development Environments: learn/dev-envs.md
+    - Publishing: learn/publishing.md
+    - Unattended Code Execution: learn/code-exec.md
+    - Packages: learn/packages.md
+  - Section: about.md
+  - Section: resources.md
+  - Blog: blog/index.md
+
+plugins:
+  - blog:
+      post_url_format: "{slug}"
+  - privacy
+  - search

@@ -1,9 +1,7 @@
----
-layout: page
-title: Guides
-date: 2020-01-31 00:40:33 +0000
-permalink: /guides/
----
+# Welcome to RinProd.com
+
+Learn about running R in production.
+
 
 If you're an **R user** looking for more information on writing R for production use cases, this site isn't really about that, so check the [resources for writing production R](/writing-production-r/) page instead.
 

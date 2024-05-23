@@ -1,0 +1,3 @@
+# R and Docker
+
+Docker is a special case...
