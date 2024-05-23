@@ -1,17 +1,19 @@
 ---
 layout: post
 title:  "The talk that started it all"
-date:   2019-01-31 00:40:33 +0000
-categories: slides talks background
+date:   2019-01-31
+categories: 
+  - slides
+  - talks
 permalink: "/the-talk-that-started-it-all/"
 ---
-These slides were originally presented to an audience of R users by [Mark Sellors](https://twitter.com/sellorm) at [RStudio::conf](https://rstudio.com/conference) 2019 in Austin, Texas.
+These slides were originally presented to an audience of R users by [Mark Sellors](https://sellorm.com) at [RStudio::conf](https://rstudio.com/conference) 2019 in Austin, Texas.
 
 A video of the talk is available on the [RStudio website](https://resources.rstudio.com/rstudio-conf-2019/r-in-production).
 
 ## Slide 1
 
-![](/static/2020-01-31-the-post-that-started-it-all/r-in-prod-00.jpg)
+![](2019-01-31-the-post-that-started-it-all/r-in-prod-00.jpg)
 
 In this talk we'll look at some techniques for getting R running in production in your company.
 
@@ -21,60 +23,60 @@ In the slides that follow, we'll take a look at the two main approaches that peo
 
 ## Slide 2 & 3
 
-![](/static/2020-01-31-the-post-that-started-it-all/r-in-prod-01.jpg)
+![](2019-01-31-the-post-that-started-it-all/r-in-prod-01.jpg)
 
-![](/static/2020-01-31-the-post-that-started-it-all/r-in-prod-02.jpg)
+![](2019-01-31-the-post-that-started-it-all/r-in-prod-02.jpg)
 
 There's no magic formula to running any language in production and R is no different. You won't find any weird tricks or any magic functions in this talk.
 
 ## Slide 4
 
-![](/static/2020-01-31-the-post-that-started-it-all/r-in-prod-04.jpg)
+![](2019-01-31-the-post-that-started-it-all/r-in-prod-04.jpg)
 
 Our starting position is that all of the technical barriers to running R in production are (comparatively) easy to overcome, but that it's the cultural issues that slow us down. It's these cultural barriers we're going to focus on here.
 
 ## Slide 6
 
-![](/static/2020-01-31-the-post-that-started-it-all/r-in-prod-05.jpg)
+![](2019-01-31-the-post-that-started-it-all/r-in-prod-05.jpg)
 
 What is production anyway?
 
 ## Slide 7
 
-![](/static/2020-01-31-the-post-that-started-it-all/r-in-prod-06.jpg)
+![](2019-01-31-the-post-that-started-it-all/r-in-prod-06.jpg)
 
 This is the sort of image that people will often think of when the word "production" is used. Large scale data centres running huge systems, but is that "scale" more than it is "production"?
 
 ## Slide 8 & 9
 
-![](/static/2020-01-31-the-post-that-started-it-all/r-in-prod-07.jpg)
+![](2019-01-31-the-post-that-started-it-all/r-in-prod-07.jpg)
 
-![](/static/2020-01-31-the-post-that-started-it-all/r-in-prod-08.jpg)
+![](2019-01-31-the-post-that-started-it-all/r-in-prod-08.jpg)
 
 Production is anything that is run **repeatedly (or continuously)** and is **relied upon**. Acknowledging this is the key to running any language in production. For those of us working on data products "relied upon" generally means that the outputs are used in a decision making process somewhere. Production systems can be relied upon by thousands of people, or a single person the scale is not important.
 
 
 ## Slide 10
 
-![](/static/2020-01-31-the-post-that-started-it-all/r-in-prod-09.jpg)
+![](2019-01-31-the-post-that-started-it-all/r-in-prod-09.jpg)
 
 R is a great language to run in production. It's mature, stable, has many existing production users, an extensive package ecosystem and it's essentially become the lingua franca of data.
 
 
 ## Slide 11 & 12
 
-![](/static/2020-01-31-the-post-that-started-it-all/r-in-prod-10.jpg)
+![](2019-01-31-the-post-that-started-it-all/r-in-prod-10.jpg)
 
-![](/static/2020-01-31-the-post-that-started-it-all/r-in-prod-11.jpg)
+![](2019-01-31-the-post-that-started-it-all/r-in-prod-11.jpg)
 
 So, how do we get there? There are two main techniques that I've seen people use and I refer to these as the left-hand and right-hand paths.
 
 
 ## Slide 13 & 14
 
-![](/static/2020-01-31-the-post-that-started-it-all/r-in-prod-12.jpg)
+![](2019-01-31-the-post-that-started-it-all/r-in-prod-12.jpg)
 
-![](/static/2020-01-31-the-post-that-started-it-all/r-in-prod-13.jpg)
+![](2019-01-31-the-post-that-started-it-all/r-in-prod-13.jpg)
 
 The left hand path is the path of magic.
 
@@ -85,9 +87,9 @@ The main issue with this approach is that it's quite confrontational and is unli
 
 ## Slide 15 & 16
 
-![](/static/2020-01-31-the-post-that-started-it-all/r-in-prod-14.jpg)
+![](2019-01-31-the-post-that-started-it-all/r-in-prod-14.jpg)
 
-![](/static/2020-01-31-the-post-that-started-it-all/r-in-prod-15.jpg)
+![](2019-01-31-the-post-that-started-it-all/r-in-prod-15.jpg)
 
 The other option is the right hand path.
 
@@ -109,7 +111,7 @@ friction between these groups.
 
 ## Slide 17
 
-![](/static/2020-01-31-the-post-that-started-it-all/r-in-prod-16.jpg)
+![](2019-01-31-the-post-that-started-it-all/r-in-prod-16.jpg)
 
 Data science and software engineering aren't the same thing, though there is significant overlap.
 
@@ -120,7 +122,7 @@ Enterprise scale software engineering teams however, generally have many more ho
 
 ## Slide 18
 
-![](/static/2020-01-31-the-post-that-started-it-all/r-in-prod-17.jpg)
+![](2019-01-31-the-post-that-started-it-all/r-in-prod-17.jpg)
 
 These are just a few of the things you might need to get your head around when working to get R into a production setting.
 
@@ -129,14 +131,14 @@ To be clear, I'm not suggesting that all data scientists need to learn this stuf
 
 ## Slide 19
 
-![](/static/2020-01-31-the-post-that-started-it-all/r-in-prod-18.jpg)
+![](2019-01-31-the-post-that-started-it-all/r-in-prod-18.jpg)
 
 Unless you work in a very small company, you'll likely have to build bridges with other teams in order to land your work with R in production. Get to know these people and what drives them. There's often more common ground than you might think. At the end of the day getting R into production is about ensuring **confidence** in your work and building bridges with other teams within the organisation.
 
 
 ## Slide 20
 
-![](/static/2020-01-31-the-post-that-started-it-all/r-in-prod-19.jpg)
+![](2019-01-31-the-post-that-started-it-all/r-in-prod-19.jpg)
 
 Use this checklist as the basis for your own on what needs to be considered to get your work into production.
 
@@ -145,9 +147,9 @@ One of my favourites from this list is "Support": Who will provide support to yo
 
 ## Slide 21 & 22
 
-![](/static/2020-01-31-the-post-that-started-it-all/r-in-prod-20.jpg)
+![](2019-01-31-the-post-that-started-it-all/r-in-prod-20.jpg)
 
-![](/static/2020-01-31-the-post-that-started-it-all/r-in-prod-21.jpg)
+![](2019-01-31-the-post-that-started-it-all/r-in-prod-21.jpg)
 
 If you can negotiate all of that and help the business to gain the confidence in your work that it needs you'll make it to production - congratulations!
 
@@ -156,7 +158,7 @@ And if you do make it to production please share your experiences - production s
 
 ## Slide 23
 
-![](/static/2020-01-31-the-post-that-started-it-all/r-in-prod-22.jpg)
+![](2019-01-31-the-post-that-started-it-all/r-in-prod-22.jpg)
 
 * [Field Guide to the R Ecosystem](https://fg2re.sellorm.com): a guide for those new to the R ecosystem and targeted specifically at Ops teams and managers
 * [Shiny in production](https://kellobri.github.io/shiny-prod-book/) (Kelly O'Briant and Sean Lopp): a supplement to the 'Shiny in Production' 2 day workshop delivered at RStudio::conf 2019

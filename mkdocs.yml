@@ -27,8 +27,10 @@ nav:
     - Publishing: learn/publishing.md
     - Unattended Code Execution: learn/code-exec.md
     - Packages: learn/packages.md
+  - Resources: 
+    - Writing production R code: writing-production-r.md
+    - Other resources: resources.md
   - About: about.md
-  - Resources: resources.md
   - Blog: blog/index.md
 
 plugins:

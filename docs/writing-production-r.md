@@ -1,8 +1,10 @@
 ---
 layout: post
 title:  "Writing Production R"
-date:   2019-03-01 01:10:33 +0000
-categories: code resources
+date:   2019-03-01
+categories:
+  - code
+  - resources
 permalink: "/writing-production-r/"
 ---
 Hopefully you've realised by this point that this site isn't so much about R as it is the R ecosystem and infrastructure around R. So it's not the best place for information on writing production R. If that's what you're interested in though, the broader R community has you covered.
