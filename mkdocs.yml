@@ -20,14 +20,15 @@ theme:
         name: Switch to light mode
 
 nav:
-  - Section:
+  - Overview: index.md
+  - Learn:
     - learn/index.md 
     - Development Environments: learn/dev-envs.md
     - Publishing: learn/publishing.md
     - Unattended Code Execution: learn/code-exec.md
     - Packages: learn/packages.md
-  - Section: about.md
-  - Section: resources.md
+  - About: about.md
+  - Resources: resources.md
   - Blog: blog/index.md
 
 plugins:
