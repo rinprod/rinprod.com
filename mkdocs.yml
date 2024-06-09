@@ -1,8 +1,6 @@
 site_name: R in Production
 site_url: https://rinprod.com
 repo_url: https://github.com/rinprod/rinprod.com
-docs_dir: content
-site_dir: docs
 theme:
   name: material
   logo: images/rinprod_r_small.png
