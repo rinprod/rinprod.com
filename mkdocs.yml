@@ -1,7 +1,12 @@
 site_name: R in Production
 site_url: https://rinprod.com
+repo_url: https://github.com/rinprod/rinprod.com
+docs_dir: content
+site_dir: docs
 theme:
   name: material
+  logo: images/rinprod_r_small.png
+  favicon: images/rinprod_r_small.png
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -9,12 +14,16 @@ theme:
 
     # Palette toggle for light mode
     - scheme: default
+      primary: teal
+      accent: teal
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
 
     # Palette toggle for dark mode
     - scheme: slate
+      primary: teal
+      accent: teal
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -31,7 +40,15 @@ nav:
     - Writing production R code: writing-production-r.md
     - Other resources: resources.md
   - About: about.md
-  - Blog: blog/index.md
+  - Changelog: changelog.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      toc_depth: 3
+      permalink: true
 
 plugins:
   - blog:

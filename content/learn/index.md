@@ -1,4 +1,4 @@
-# Architectures for R - overview
+# Architecture concepts
 
 * code development environments
 * content publishing
