@@ -30,6 +30,7 @@ nav:
   - Overview: index.md
   - Learn:
     - learn/index.md 
+    - Understamding Data Science: learn/understanding-ds.md
     - Development Environments: learn/dev-envs.md
     - Publishing: learn/publishing.md
     - Unattended Code Execution: learn/code-exec.md
