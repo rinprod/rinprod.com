@@ -30,6 +30,6 @@ regex==2024.5.15
 requests==2.32.2
 six==1.16.0
 smmap==5.0.1
-urllib3==2.2.1
+urllib3==2.2.2
 watchdog==4.0.1
 zipp==3.19.1
