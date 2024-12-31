@@ -1,4 +1,4 @@
-RinProd.com is not your standard R website or blog. This website isn’t really even aimed at R users (there are lots of better sites for that audience) but rather the IT and Ops professionals tasked with building and maintaining R based infrastructure.
+RinProd.com is not your standard R website or blog. This website isn’t really even aimed at R _users_ (there are lots of better sites for that audience) but rather the IT and Ops professionals tasked with building and maintaining R based infrastructure.
 
 The goal of the project is to provide that audience with the information they need to expand the analytics capability that they’re able to offer for their businesses.
 
